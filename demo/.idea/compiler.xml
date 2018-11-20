@@ -6,8 +6,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="config_client_git" />
-        <module name="config_service_git" />
         <module name="eureka_consumer" />
         <module name="eureka_consumer_feign" />
         <module name="eureka_producer" />
@@ -15,8 +13,15 @@
         <module name="eureka_ribbon" />
         <module name="eureka_server" />
       </profile>
+      <profile name="Annotation profile for my-spring-cloud" enabled="true">
+        <sourceOutputDir name="../config_client/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../config_client/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="config_service_git" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="config_client" target="1.8" />
       <module name="config_client_git" target="1.8" />
       <module name="config_service_git" target="1.8" />
       <module name="demo" target="1.8" />

@@ -1,4 +1,4 @@
-package com.springcloudexample.eureka_server;
+package com.springcloudexample.config_service.git;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
