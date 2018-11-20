@@ -1,4 +1,4 @@
-package com.springcloudexample.config_service.git;
+package com.springcloudexample.config_service_git;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

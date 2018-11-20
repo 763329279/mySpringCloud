@@ -1,4 +1,4 @@
-package com.springcloudexample.config_service.git;
+package com.springcloudexample.config_service_git;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
