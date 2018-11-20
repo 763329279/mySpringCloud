@@ -15,13 +15,15 @@
     <packaging>jar</packaging>
 
     <name>eureka_server</name>
-    <description>Demo project for Spring Boot</description>
+    <description>eureka_server</description>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka-server</artifactId>
         </dependency>
+
     </dependencies>
+
 
 </project>

@@ -13,11 +13,12 @@
 
     <modules>
         <module>eureka_server</module>
-        <module>eureka_server_single</module>
         <module>eureka_producer</module>
         <module>eureka_producer_2</module>
         <module>eureka_consumer</module>
         <module>eureka_ribbon</module>
+        <module>eureka_consumer_feign</module>
+        <module>config_service_git</module>
     </modules>
 
     <parent>
