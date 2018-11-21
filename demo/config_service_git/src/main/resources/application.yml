@@ -1,10 +1,13 @@
 spring:
   application:
     name: config-server-git
-server:
-  port: 6000
   cloud:
     config:
       server:
         git:
-          uri: http://git.oschina.net/didispace/config-repo-demo/
+          uri: https://github.com/ityouknow/spring-cloud-starter/
+          search-paths: config-repo                             # git仓库地址下的相对地址，可以配置多个，用,分割。
+          username:                                             # git仓库的账号
+          password:
+server:
+  port: 6003
