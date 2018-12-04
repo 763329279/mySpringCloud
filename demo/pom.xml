@@ -142,6 +142,15 @@
         </repository>
     </repositories>
     <build>
+        <sourceDirectory>src/main/java</sourceDirectory>
+        <resources>
+            <resource><directory>src/main/resources</directory></resource>
+        </resources>
+        <testResources>
+            <testResource><directory>src/test/resources</directory></testResource>
+            <testResource><directory>src/test/java</directory></testResource>
+        </testResources>
+
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
