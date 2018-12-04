@@ -2,13 +2,9 @@
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/client_config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config_client" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/config_client" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/config_client" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/config_client" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/config_client" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/config_client_git" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config_client_db" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config_server_db" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config_service_git" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka_consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka_consumer_feign" charset="UTF-8" />
@@ -16,7 +12,6 @@
     <file url="file://$PROJECT_DIR$/eureka_producer_2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka_ribbon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka_server" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/eureka_server_cluster" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
